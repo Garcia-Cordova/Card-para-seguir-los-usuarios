@@ -1,0 +1,49 @@
+.user-follow-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.profile-picture {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.username {
+    font-weight: 600;
+    color: #262626;
+}
+
+.name {
+    color: #8e8e8e;
+}
+
+.follow-button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.follow-button:hover {
+    background-color: #007bbd;
+}
